@@ -5,3 +5,4 @@ function PluginCbMaterial()
 endfunction
 
 let g:plug_callbacks += [function('PluginCbMaterial')]
+let g:material_terminal_italics = 1
