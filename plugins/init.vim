@@ -7,9 +7,12 @@ call plug#begin('~/.config/nvim/plugged')
   source $HOME/.config/nvim/plugins/material.vim
   source $HOME/.config/nvim/plugins/nerdtree.vim
 
-  Plug 'scrooloose/nerdcommenter'
+  Plug 'airblade/vim-gitgutter'
   Plug 'leafgarland/typescript-vim', {'for': ['typescript', 'typescript.tsx']}
   Plug 'peitalin/vim-jsx-typescript'
+  Plug 'scrooloose/nerdcommenter'
+  Plug 'tpope/vim-fugitive'
+
 
 call plug#end()
 for Cb in g:plug_callbacks
