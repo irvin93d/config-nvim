@@ -1,18 +1,18 @@
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
-command! -bang -nargs=* Rg
+command! -bang -nargs=* SearchFiles
   \ call fzf#vim#grep(
-  \   'rg -g \!vendor/ --hidden --column --line-number --no-heading --color=always --smart-case '.shellescape(<q-args>), 1,
+  \   'rg --glob "!{node_modules/*,.git/*}" --hidden --column --line-number --no-heading --color=always --smart-case '.shellescape(<q-args>), 1,
   \   <bang>0 ? fzf#vim#with_preview('up:60%')
   \           : fzf#vim#with_preview('right:50%:hidden', '?'),
   \   <bang>0)
 
+
 nnoremap <Leader><Leader> :Commands<CR>
 
-nnoremap <Leader>fp :Files<CR>
-nnoremap <Leader>ff :Rg!<CR>
-nnoremap <Leader>fF :Rg
+nnoremap <Leader>fp :GitFiles<CR>
+nnoremap <Leader>ff :SearchFiles!<CR>
 nnoremap <Leader>fb :Buffers<CR>
 
 let g:fzf_action = {
