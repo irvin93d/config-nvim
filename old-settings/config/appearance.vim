@@ -29,18 +29,6 @@ set shiftwidth=4
 set tabstop=4
 set updatetime=400
 
-let g:lightline = {
-            \ 'colorscheme': 'material_vim',
-            \ 'active': {
-            \     'left': [
-            \         [ 'mode', 'paste' ],
-            \         [ 'gitbranch', 'readonly', 'relativepath', 'modified' ]
-            \     ]
-            \ },
-            \ 'component_function': {
-            \         'gitbranch': 'fugitive#head'
-            \     },
-            \ }
 
 let g:ale_sign_error = '⤫'
 let g:ale_sign_warning = '⚠'

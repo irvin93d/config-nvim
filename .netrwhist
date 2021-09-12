@@ -1,3 +1,12 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhistcnt =1
-let g:netrw_dirhist_1='/home/pony/dev/rnd-mobile-hybrid/Components'
+let g:netrw_dirhist_1='/home/pony/config/config-nvim/config'
+let g:netrw_dirhist_0='/home/pony/config/config-nvim'
+let g:netrw_dirhist_9='/home/pony/config/config-nvim/plugged'
+let g:netrw_dirhist_8='/home/pony/config/config-nvim'
+let g:netrw_dirhist_7='/home/pony/dev/tda342/exam2021/src'
+let g:netrw_dirhist_6='/home/pony/dev/tda342/exam2021'
+let g:netrw_dirhist_5='/home/pony/dev/tda342'
+let g:netrw_dirhist_4='/home/pony/dev/tda342/exam2021/src'
+let g:netrw_dirhist_3='/home/pony/dev/tda342/exam2021'
+let g:netrw_dirhist_2='/home/pony/dev/tda342'
