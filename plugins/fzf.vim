@@ -8,9 +8,6 @@ command! -bang -nargs=* Rg
   \           : fzf#vim#with_preview('right:50%:hidden', '?'),
   \   <bang>0)
 
-" TODO: Remove leader from here
-let mapleader=" "
-
 nnoremap <Leader><Leader> :Commands<CR>
 
 nnoremap <Leader>fp :Files<CR>

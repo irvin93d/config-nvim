@@ -6,6 +6,9 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 
+" === Set leader so it can be used by plugins ===
+let mapleader=" "
+
 " === Set up plugins ===
 
 let g:plug_callbacks = []
