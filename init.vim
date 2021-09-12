@@ -10,21 +10,7 @@ endif
 let mapleader=" "
 
 " === Set up plugins ===
-
-let g:plug_callbacks = []
-
-call plug#begin('~/.config/nvim/plugged')
 source $HOME/.config/nvim/plugins/init.vim
-call plug#end()
-
-for Cb in g:plug_callbacks
-  try
-    call Cb()
-  catch
-    echom 'Encountered errors when executing ' . string(Cb) . ', run :PlugInstall'
-  endtry
-endfor
-
 
 " Not really sure why we need these, but they need to be here.
 if (has("nvim"))
