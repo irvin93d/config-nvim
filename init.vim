@@ -31,3 +31,13 @@ if (has("termguicolors"))
     set termguicolors
 endif
 
+" Some default things. Might wanna move later.
+au FocusGained,BufEnter * :silent! !
+set expandtab
+set hidden
+set list
+set number
+set relativenumber
+set shiftwidth=4
+set tabstop=4
+set updatetime=400

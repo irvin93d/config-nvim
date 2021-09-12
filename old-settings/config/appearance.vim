@@ -17,16 +17,6 @@ let g:ale_haskell_ghc_options = "-fno-code -v0 -g -package -g HUnit -g -package 
 let g:hdevtools_options = "-g -package -g HUnit -g -package -g tasty -g -package -g mtl"
 
 " Other settings
-au FocusGained,BufEnter * :silent! !
-set expandtab
-set hidden
-set list
-set number
-set relativenumber
-set shiftwidth=4
-set tabstop=4
-set updatetime=400
-
 
 let g:ale_sign_error = '⤫'
 let g:ale_sign_warning = '⚠'
