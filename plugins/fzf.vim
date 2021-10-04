@@ -4,7 +4,7 @@ Plug 'junegunn/fzf.vim'
 command! -bang -nargs=* SearchFiles
   \ call fzf#vim#grep(
   \   'rg --glob "!{node_modules/*,.git/*}" --hidden --column --line-number --no-heading --color=always --smart-case '.shellescape(<q-args>), 1,
-  \   <bang>0 ? fzf#vim#with_preview('up:60%')
+  \   <bang>0 ? fzf#vim#with_preview('right:50%')
   \           : fzf#vim#with_preview('right:50%:hidden', '?'),
   \   <bang>0)
 

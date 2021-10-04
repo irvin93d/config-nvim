@@ -21,7 +21,6 @@ if (has("termguicolors"))
 endif
 
 " Some default things. Might wanna move later.
-au FocusGained,BufEnter * :silent! !
 set expandtab
 set hidden
 set list
@@ -30,3 +29,8 @@ set relativenumber
 set shiftwidth=4
 set tabstop=4
 set updatetime=400
+
+au FocusGained,BufEnter * :silent! !
+set autoread
+
+autocmd BufEnter NERD_tree_* | execute 'normal R'
