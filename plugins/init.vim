@@ -6,12 +6,11 @@ call plug#begin('~/.config/nvim/plugged')
   source $HOME/.config/nvim/plugins/lightline.vim
   source $HOME/.config/nvim/plugins/material.vim
   source $HOME/.config/nvim/plugins/nerdtree.vim
+  source $HOME/.config/nvim/plugins/git.vim
 
-  Plug 'airblade/vim-gitgutter'
   Plug 'leafgarland/typescript-vim', {'for': ['typescript', 'typescript.tsx']}
   Plug 'peitalin/vim-jsx-typescript'
   Plug 'scrooloose/nerdcommenter'
-  Plug 'tpope/vim-fugitive'
   Plug 'fladson/vim-kitty'
   Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 

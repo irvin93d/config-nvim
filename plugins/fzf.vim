@@ -8,12 +8,12 @@ command! -bang -nargs=* SearchFiles
   \           : fzf#vim#with_preview('right:50%:hidden', '?'),
   \   <bang>0)
 
-
 nnoremap <Leader><Leader> :Commands<CR>
 
 nnoremap <Leader>fp :GitFiles<CR>
 nnoremap <Leader>ff :SearchFiles!<CR>
 nnoremap <Leader>fb :Buffers<CR>
+nnoremap <Leader>gc :Commits<CR>
 
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
