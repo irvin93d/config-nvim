@@ -12,6 +12,7 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'peitalin/vim-jsx-typescript'
   Plug 'scrooloose/nerdcommenter'
   Plug 'tpope/vim-fugitive'
+  Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 
 
 call plug#end()
