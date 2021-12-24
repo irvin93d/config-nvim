@@ -13,9 +13,10 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'scrooloose/nerdcommenter'
   Plug 'fladson/vim-kitty'
   Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
-
+  Plug 'jparise/vim-graphql'
 
 call plug#end()
+
 for Cb in g:plug_callbacks
   try
     call Cb()
