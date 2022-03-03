@@ -11,5 +11,8 @@
   "coc.preferences.formatOnType": true,
   "eslint.autoFixOnSave": true,
   "prettier.disableSuccessMessage": true,
-  "tsserver.formatOnType": true
+  "tsserver.formatOnType": true,
+  "html.autoClosingTags": false,
+  "javascript.autoClosingTags": false,
+  "typescript.autoClosingTags": false
 }
