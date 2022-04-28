@@ -14,6 +14,7 @@ call plug#begin('~/.config/nvim/plugged')
   Plug 'fladson/vim-kitty'
   Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
   Plug 'jparise/vim-graphql'
+  Plug 'leafOfTree/vim-svelte-plugin'
 
 call plug#end()
 

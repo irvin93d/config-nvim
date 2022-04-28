@@ -6,7 +6,8 @@ let g:coc_global_extensions = [
   \ 'coc-html',
   \ 'coc-json',
   \ 'coc-prettier',
-  \ 'coc-tsserver'
+  \ 'coc-tsserver',
+  \ 'coc-svelte'
   \ ]
 
 " TODO Check for module if needed:
